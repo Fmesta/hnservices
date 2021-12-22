@@ -1,0 +1,45 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVQUwaEQbjB_mQ.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #9f5f0085;  /*background color s'agit de changer la couleur du fond de page*/
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff950083;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}   /* Ce code sert pour styliser le corps de la page, ajouter un cadrage et la couleur de ce dernier...*/
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #9f2000cb;
+  text-shadow: 3px 3px 1px black;
+}   /*ce code sert à positionner et styler le titre principale de la page*/
+img {
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
